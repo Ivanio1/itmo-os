@@ -22,7 +22,6 @@ for line in res.decode("utf-8").split("\n"):
         sp_line.remove('')
     times.append(time)
     time += 0.1
-    print(sp_line)
     values.append(float(sp_line[9].replace(',', '.')))
 
 fig, ax = plt.subplots()
