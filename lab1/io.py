@@ -10,9 +10,9 @@ time = 0
 period = "0.1"
 num = "300"
 
-command = "stress-ng-pipe"
+command = "stress-ng-iomix"
 
-res = subprocess.check_output(["sudo", "iotop", "-P","-b", "-n", num, "-d", period])
+res = subprocess.check_output(["sudo", "iotop-c", "-P","-b", "-n", num, "-d", period])
 
 for line in res.decode("utf-8").split("\n"):
   if re.search(command, line):
