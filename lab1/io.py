@@ -10,7 +10,7 @@ time = 0
 period = "0.1"
 num = "300"
 
-command = "stress-ng-iomix"
+command = "stress-ng-pipe"
 
 res = subprocess.check_output(["sudo", "iotop", "-P","-b", "-n", num, "-d", period])
 

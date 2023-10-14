@@ -7,7 +7,7 @@ values = []
 times = []
 time = 0
 
-timeout = "90"
+timeout = "30"
 
 res = ""
 
@@ -21,7 +21,7 @@ prev_value = 0
 time_add = int(timeout) / (len(res.decode("utf-8").split("\n"))/4)
 
 for line in res.decode("utf-8").split("\n"):
-  if re.search("enp0s3", line):
+  if re.search("wlp2s0", line):
     sp_line = line.split(" ")
     
     for i in range(20):
