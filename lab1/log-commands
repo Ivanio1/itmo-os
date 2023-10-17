@@ -1,0 +1,7 @@
+pidstat -ur -p 9793 1 10 > logs/os-1-cpu.log
+
+top -b -H -p 12474 -d 1 -n 50 > logs/os-1-state.log
+
+iostat -d -p /dev/sda1 1 10 > logs/os-1-io.log
+
+ifstat -t -n -i wlp2s0 1 10 > logs/os-1-net.log

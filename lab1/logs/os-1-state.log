@@ -1,0 +1,422 @@
+top - 12:12:18 up  1:07,  1 user,  load average: 16,00, 8,56, 4,75
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,4 us,  1,6 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    185,0 free,   5261,2 used,   2346,9 buff/cache
+MiB Swap:   2048,0 total,    119,3 free,   1928,7 used.    723,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  80,0   0,1   1:23.54 stress-ng
+
+top - 12:12:19 up  1:07,  1 user,  load average: 16,00, 8,56, 4,75
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,9 us,  1,1 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    185,0 free,   5261,2 used,   2346,9 buff/cache
+MiB Swap:   2048,0 total,    119,3 free,   1928,7 used.    723,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  61,0   0,1   1:24.15 stress-ng
+
+top - 12:12:20 up  1:07,  1 user,  load average: 16,00, 8,56, 4,75
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 99,0 us,  1,0 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    185,0 free,   5261,2 used,   2346,9 buff/cache
+MiB Swap:   2048,0 total,    119,3 free,   1928,7 used.    723,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  50,0   0,1   1:24.65 stress-ng
+
+top - 12:12:21 up  1:07,  1 user,  load average: 16,00, 8,56, 4,75
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,5 us,  1,4 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    181,1 free,   5265,5 used,   2346,5 buff/cache
+MiB Swap:   2048,0 total,    119,3 free,   1928,7 used.    720,0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  50,0   0,1   1:25.15 stress-ng
+
+top - 12:12:22 up  1:07,  1 user,  load average: 16,00, 8,56, 4,75
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 99,1 us,  0,9 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    181,1 free,   5265,5 used,   2346,5 buff/cache
+MiB Swap:   2048,0 total,    119,3 free,   1928,7 used.    720,0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  89,0   0,1   1:26.04 stress-ng
+
+top - 12:12:23 up  1:07,  1 user,  load average: 15,91, 8,67, 4,80
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 99,1 us,  0,9 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    181,1 free,   5265,5 used,   2346,5 buff/cache
+MiB Swap:   2048,0 total,    119,3 free,   1928,7 used.    720,0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  85,1   0,1   1:26.90 stress-ng
+
+top - 12:12:24 up  1:07,  1 user,  load average: 15,91, 8,67, 4,80
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 99,1 us,  0,7 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    179,5 free,   5267,0 used,   2346,6 buff/cache
+MiB Swap:   2048,0 total,    119,3 free,   1928,7 used.    718,3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  86,0   0,1   1:27.76 stress-ng
+
+top - 12:12:25 up  1:07,  1 user,  load average: 15,91, 8,67, 4,80
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,4 us,  1,6 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    179,5 free,   5267,0 used,   2346,6 buff/cache
+MiB Swap:   2048,0 total,    119,3 free,   1928,7 used.    718,3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  93,0   0,1   1:28.69 stress-ng
+
+top - 12:12:26 up  1:07,  1 user,  load average: 15,91, 8,67, 4,80
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 97,0 us,  3,0 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    179,5 free,   5267,0 used,   2346,6 buff/cache
+MiB Swap:   2048,0 total,    119,3 free,   1928,7 used.    718,3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  49,0   0,1   1:29.18 stress-ng
+
+top - 12:12:27 up  1:07,  1 user,  load average: 15,91, 8,67, 4,80
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 97,5 us,  2,4 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    146,8 free,   5267,0 used,   2379,3 buff/cache
+MiB Swap:   2048,0 total,    119,3 free,   1928,7 used.    685,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  35,0   0,1   1:29.53 stress-ng
+
+top - 12:12:28 up  1:07,  1 user,  load average: 16,08, 8,83, 4,87
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,1 us,  1,9 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    146,8 free,   5267,0 used,   2379,3 buff/cache
+MiB Swap:   2048,0 total,    119,3 free,   1928,7 used.    685,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  42,0   0,1   1:29.95 stress-ng
+
+top - 12:12:29 up  1:07,  1 user,  load average: 16,08, 8,83, 4,87
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,1 us,  1,9 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    146,8 free,   5267,0 used,   2379,3 buff/cache
+MiB Swap:   2048,0 total,    119,3 free,   1928,7 used.    685,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  74,0   0,1   1:30.69 stress-ng
+
+top - 12:12:30 up  1:07,  1 user,  load average: 16,08, 8,83, 4,87
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 97,9 us,  2,0 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    183,6 free,   5262,9 used,   2346,6 buff/cache
+MiB Swap:   2048,0 total,    119,3 free,   1928,7 used.    722,7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  85,1   0,1   1:31.55 stress-ng
+
+top - 12:12:31 up  1:07,  1 user,  load average: 16,08, 8,83, 4,87
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 97,9 us,  2,1 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    183,6 free,   5262,9 used,   2346,6 buff/cache
+MiB Swap:   2048,0 total,    119,3 free,   1928,7 used.    722,7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  39,0   0,1   1:31.94 stress-ng
+
+top - 12:12:32 up  1:07,  1 user,  load average: 16,08, 8,83, 4,87
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 97,8 us,  2,1 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    183,6 free,   5262,9 used,   2346,6 buff/cache
+MiB Swap:   2048,0 total,    119,3 free,   1928,7 used.    722,7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  34,0   0,1   1:32.28 stress-ng
+
+top - 12:12:33 up  1:07,  1 user,  load average: 16,16, 8,96, 4,94
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 95,5 us,  4,4 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    141,6 free,   5301,2 used,   2350,3 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    683,4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  52,0   0,1   1:32.80 stress-ng
+
+top - 12:12:34 up  1:07,  1 user,  load average: 16,16, 8,96, 4,94
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 94,9 us,  5,1 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    141,6 free,   5301,2 used,   2350,3 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    683,4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  26,0   0,1   1:33.06 stress-ng
+
+top - 12:12:35 up  1:07,  1 user,  load average: 16,16, 8,96, 4,94
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 93,6 us,  6,2 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    141,6 free,   5301,2 used,   2350,3 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    683,4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  29,0   0,1   1:33.35 stress-ng
+
+top - 12:12:36 up  1:07,  1 user,  load average: 16,16, 8,96, 4,94
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 95,9 us,  4,1 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    204,3 free,   5261,4 used,   2327,4 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    723,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  48,0   0,1   1:33.83 stress-ng
+
+top - 12:12:37 up  1:07,  1 user,  load average: 16,16, 8,96, 4,94
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,6 us,  1,4 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    204,3 free,   5261,4 used,   2327,4 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    723,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  62,0   0,1   1:34.45 stress-ng
+
+top - 12:12:38 up  1:07,  1 user,  load average: 16,06, 9,06, 4,99
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,9 us,  1,1 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    204,3 free,   5261,4 used,   2327,4 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    723,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  43,6   0,1   1:34.89 stress-ng
+
+top - 12:12:39 up  1:07,  1 user,  load average: 16,06, 9,06, 4,99
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 99,5 us,  0,5 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    202,7 free,   5263,0 used,   2327,4 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    722,5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  59,0   0,1   1:35.48 stress-ng
+
+top - 12:12:40 up  1:07,  1 user,  load average: 16,06, 9,06, 4,99
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,1 us,  1,8 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    202,7 free,   5263,0 used,   2327,4 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    722,5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  49,0   0,1   1:35.97 stress-ng
+
+top - 12:12:41 up  1:07,  1 user,  load average: 16,06, 9,06, 4,99
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 97,4 us,  2,5 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    202,7 free,   5263,0 used,   2327,4 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    722,5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  31,0   0,1   1:36.28 stress-ng
+
+top - 12:12:42 up  1:07,  1 user,  load average: 16,06, 9,06, 4,99
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 97,9 us,  2,0 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    135,1 free,   5263,8 used,   2394,2 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    655,0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  39,0   0,1   1:36.67 stress-ng
+
+top - 12:12:43 up  1:07,  1 user,  load average: 16,06, 9,18, 5,05
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,6 us,  1,4 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    135,1 free,   5263,8 used,   2394,2 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    655,0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  58,0   0,1   1:37.25 stress-ng
+
+top - 12:12:44 up  1:07,  1 user,  load average: 16,06, 9,18, 5,05
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,9 us,  1,1 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    135,1 free,   5263,8 used,   2394,2 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    655,0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  43,0   0,1   1:37.68 stress-ng
+
+top - 12:12:45 up  1:07,  1 user,  load average: 16,06, 9,18, 5,05
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 97,6 us,  2,4 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    154,8 free,   5264,6 used,   2373,7 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    674,7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  71,3   0,1   1:38.40 stress-ng
+
+top - 12:12:46 up  1:07,  1 user,  load average: 16,06, 9,18, 5,05
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,0 us,  1,8 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,2 si,  0,0 st
+MiB Mem :   7793,1 total,    154,8 free,   5264,6 used,   2373,7 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    674,7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  45,0   0,1   1:38.85 stress-ng
+
+top - 12:12:47 up  1:07,  1 user,  load average: 16,06, 9,18, 5,05
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,8 us,  1,2 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    154,8 free,   5264,6 used,   2373,7 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    674,7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  74,0   0,1   1:39.59 stress-ng
+
+top - 12:12:48 up  1:07,  1 user,  load average: 15,97, 9,27, 5,11
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 99,0 us,  1,0 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    186,9 free,   5254,6 used,   2351,6 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    706,7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  45,0   0,1   1:40.04 stress-ng
+
+top - 12:12:49 up  1:07,  1 user,  load average: 15,97, 9,27, 5,11
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 99,2 us,  0,6 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    186,9 free,   5254,6 used,   2351,6 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    706,7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  41,0   0,1   1:40.45 stress-ng
+
+top - 12:12:50 up  1:07,  1 user,  load average: 15,97, 9,27, 5,11
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,9 us,  1,1 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    186,9 free,   5254,6 used,   2351,6 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    706,7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  38,0   0,1   1:40.83 stress-ng
+
+top - 12:12:51 up  1:07,  1 user,  load average: 15,97, 9,27, 5,11
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,9 us,  1,0 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    215,0 free,   5258,9 used,   2319,3 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    734,8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  41,0   0,1   1:41.24 stress-ng
+
+top - 12:12:52 up  1:07,  1 user,  load average: 15,97, 9,27, 5,11
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 99,1 us,  0,9 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    215,0 free,   5258,9 used,   2319,3 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    734,8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  78,0   0,1   1:42.02 stress-ng
+
+top - 12:12:53 up  1:07,  1 user,  load average: 15,97, 9,39, 5,16
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,2 us,  1,8 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    215,0 free,   5258,9 used,   2319,3 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    734,8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  35,6   0,1   1:42.38 stress-ng
+
+top - 12:12:54 up  1:07,  1 user,  load average: 15,97, 9,39, 5,16
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,5 us,  1,5 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    181,0 free,   5259,2 used,   2352,9 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    700,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  33,0   0,1   1:42.71 stress-ng
+
+top - 12:12:55 up  1:07,  1 user,  load average: 15,97, 9,39, 5,16
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,4 us,  1,5 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    181,0 free,   5259,2 used,   2352,9 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    700,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  29,0   0,1   1:43.00 stress-ng
+
+top - 12:12:56 up  1:07,  1 user,  load average: 15,97, 9,39, 5,16
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,8 us,  1,2 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    181,0 free,   5259,2 used,   2352,9 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    700,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  29,0   0,1   1:43.29 stress-ng
+
+top - 12:12:57 up  1:07,  1 user,  load average: 15,97, 9,39, 5,16
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 99,1 us,  0,9 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    180,5 free,   5260,1 used,   2352,4 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    700,4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  37,0   0,1   1:43.66 stress-ng
+
+top - 12:12:58 up  1:07,  1 user,  load average: 16,14, 9,53, 5,23
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,6 us,  1,4 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    180,5 free,   5260,1 used,   2352,4 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    700,4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  42,0   0,1   1:44.08 stress-ng
+
+top - 12:12:59 up  1:07,  1 user,  load average: 16,14, 9,53, 5,23
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,1 us,  1,7 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    180,5 free,   5260,1 used,   2352,4 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    700,4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  47,0   0,1   1:44.55 stress-ng
+
+top - 12:13:00 up  1:07,  1 user,  load average: 16,14, 9,53, 5,23
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,5 us,  1,2 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,2 si,  0,0 st
+MiB Mem :   7793,1 total,    181,1 free,   5259,0 used,   2353,0 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    701,1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  43,6   0,1   1:44.99 stress-ng
+
+top - 12:13:01 up  1:07,  1 user,  load average: 16,14, 9,53, 5,23
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 98,4 us,  1,6 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    181,1 free,   5259,0 used,   2353,0 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    701,1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  49,0   0,1   1:45.48 stress-ng
+
+top - 12:13:02 up  1:07,  1 user,  load average: 16,14, 9,53, 5,23
+Threads:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 99,0 us,  1,0 sy,  0,0 ni,  0,0 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   7793,1 total,    181,1 free,   5259,0 used,   2353,0 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    701,1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 R  54,0   0,1   1:46.02 stress-ng
+
+top - 12:13:03 up  1:07,  1 user,  load average: 14,93, 9,39, 5,21
+Threads:   1 total,   0 running,   0 sleeping,   1 stopped,   0 zombie
+%Cpu(s): 85,4 us,  1,1 sy,  0,0 ni, 13,4 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    147,5 free,   5261,3 used,   2384,3 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    667,6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 T  36,0   0,1   1:46.38 stress-ng
+
+top - 12:13:04 up  1:07,  1 user,  load average: 14,93, 9,39, 5,21
+Threads:   1 total,   0 running,   0 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  8,2 us,  1,4 sy,  0,0 ni, 90,3 id,  0,0 wa,  0,0 hi,  0,1 si,  0,0 st
+MiB Mem :   7793,1 total,    147,5 free,   5261,3 used,   2384,3 buff/cache
+MiB Swap:   2048,0 total,    119,6 free,   1928,4 used.    667,6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   12474 ivan      20   0   45820   5856   3456 T   0,0   0,1   1:46.38 stress-ng

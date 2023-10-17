@@ -1,0 +1,67 @@
+Linux 6.2.0-34-generic (ivan-UX430UAR) 	17.10.2023 	_x86_64_	(8 CPU)
+
+15:10:40      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+15:10:41     1000    760734   57,00    0,00    0,00   42,00   57,00     0  stress-ng
+
+15:10:40      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+15:10:41     1000    760734      0,00      0,00   45820    5344   0,07  stress-ng
+
+15:10:41      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+15:10:42     1000    760734   48,00    0,00    0,00   52,00   48,00     4  stress-ng
+
+15:10:41      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+15:10:42     1000    760734      0,00      0,00   45820    5344   0,07  stress-ng
+
+15:10:42      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+15:10:43     1000    760734   51,00    0,00    0,00   49,00   51,00     0  stress-ng
+
+15:10:42      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+15:10:43     1000    760734      0,00      0,00   45820    5344   0,07  stress-ng
+
+15:10:43      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+15:10:44     1000    760734   47,00    0,00    0,00   53,00   47,00     2  stress-ng
+
+15:10:43      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+15:10:44     1000    760734      0,00      0,00   45820    5344   0,07  stress-ng
+
+15:10:44      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+15:10:45     1000    760734   41,00    0,00    0,00   59,00   41,00     6  stress-ng
+
+15:10:44      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+15:10:45     1000    760734      0,00      0,00   45820    5344   0,07  stress-ng
+
+15:10:45      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+15:10:46     1000    760734   49,00    0,00    0,00   51,00   49,00     6  stress-ng
+
+15:10:45      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+15:10:46     1000    760734      0,00      0,00   45820    5344   0,07  stress-ng
+
+15:10:46      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+15:10:47     1000    760734   51,00    0,00    0,00   50,00   51,00     6  stress-ng
+
+15:10:46      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+15:10:47     1000    760734      0,00      0,00   45820    5344   0,07  stress-ng
+
+15:10:47      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+15:10:48     1000    760734   49,00    0,00    0,00   50,00   49,00     6  stress-ng
+
+15:10:47      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+15:10:48     1000    760734      0,00      0,00   45820    5344   0,07  stress-ng
+
+15:10:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+15:10:49     1000    760734   50,00    0,00    0,00   50,00   50,00     6  stress-ng
+
+15:10:48      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+15:10:49     1000    760734      0,00      0,00   45820    5344   0,07  stress-ng
+
+15:10:49      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+15:10:50     1000    760734   50,00    0,00    0,00   50,00   50,00     6  stress-ng
+
+15:10:49      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+15:10:50     1000    760734      0,00      0,00   45820    5344   0,07  stress-ng
+
+Average:      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+Average:     1000    760734   49,30    0,00    0,00   50,60   49,30     -  stress-ng
+
+Average:      UID       PID  minflt/s  majflt/s     VSZ     RSS   %MEM  Command
+Average:     1000    760734      0,00      0,00   45820    5344   0,07  stress-ng

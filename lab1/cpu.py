@@ -2,8 +2,8 @@ import subprocess
 import time
 import matplotlib.pyplot as plt
 
-measure_time = 30
-PID = "12474"
+measure_time = 10
+PID = "759739"
 
 values = []
 times = []
