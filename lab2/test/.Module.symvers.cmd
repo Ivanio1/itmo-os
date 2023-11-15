@@ -1,0 +1,1 @@
+cmd_/home/ivan/Desktop/itmo-os/lab2/test/Module.symvers :=  scripts/mod/modpost -m -a     -o /home/ivan/Desktop/itmo-os/lab2/test/Module.symvers -T /home/ivan/Desktop/itmo-os/lab2/test/modules.order -i Module.symvers -e 

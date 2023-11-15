@@ -1,0 +1,1 @@
+cmd_/home/ivan/Desktop/itmo-os/lab2/test/mymodule.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/ivan/Desktop/itmo-os/lab2/test/mymodule.ko /home/ivan/Desktop/itmo-os/lab2/test/mymodule.o /home/ivan/Desktop/itmo-os/lab2/test/mymodule.mod.o;  true
