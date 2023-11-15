@@ -24,23 +24,26 @@
 #define WR_SIGNAL_STRUCT _IOW('a', 2, struct signal_struct_message*)
 #define WR_SYSCALL_INFO _IOW('a', 3, struct syscall_info_message*)
 
+/*Meta information*/
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Ivanio1");
 MODULE_DESCRIPTION("Linux kernel driver (IOCTL)");
 MODULE_VERSION("1.0");
 
-
+/*Methods to fill structures*/
 void fill_signal_struct(void);
 void fill_syscall_info(void);
 
+/*Methods from kernel*/
 int __init etx_driver_init(void);
 void __exit etx_driver_exit(void);
 long etx_ioctl(struct file *file, unsigned int cmd, unsigned long arg);
 int etx_open(struct inode *inode, struct file *file);
 int etx_release(struct inode *inode, struct file *file);
-ssize_t etx_read(struct file *filp, char __user *buf, size_t len, loff_t *off);
+ssize_t etx_read(struct file *filp, char __user *buf,size_t len, loff_t *off);
 ssize_t etx_write(struct file *filp, const char *buf, size_t len, loff_t *off);
 
+/*Operations with device file*/
 struct file_operations fops = {
         .owner = THIS_MODULE,
         .read = etx_read,
@@ -50,6 +53,8 @@ struct file_operations fops = {
         .release = etx_release,
 };
 
+
+/*Structures*/
 struct signal_struct_info {
     bool valid;
     int nr_threads;
@@ -66,7 +71,7 @@ struct signal_struct_message {
 
 struct my_syscall_info {
     bool valid;
-    unsigned long  sp;
+    unsigned long sp;
     int nr;
     unsigned int arch;
     unsigned long instruction_pointer;
@@ -86,16 +91,16 @@ struct task_struct *ts;
 struct signal_struct_message msg;
 struct syscall_info_message msg2;
 
-
+//Main function to control read/write
 long etx_ioctl(struct file *file, unsigned int cmd, unsigned long arg) {
     if (cmd == WR_SYSCALL_INFO) {
-    	if (copy_from_user(&msg2, (struct syscall_info_message *) arg, sizeof(msg2))) {
+        if (copy_from_user(&msg2, (struct syscall_info_message *) arg, sizeof(msg2))) {
             pr_err("Data Write : Err!\n");
         }
         pr_info("Pid = %d\n", msg2.pid);
         fill_syscall_info();
     }
-    
+
     if (cmd == WR_SIGNAL_STRUCT) {
         if (copy_from_user(&msg, (struct signal_struct_message *) arg, sizeof(msg))) {
             pr_err("Data Write : Err!\n");
@@ -140,10 +145,10 @@ int __init etx_driver_init(void) {
     return 0;
 
     r_device:
-        class_destroy(dev_class);
+    class_destroy(dev_class);
     r_class:
-        unregister_chrdev_region(dev, 1);
-        return -1;
+    unregister_chrdev_region(dev, 1);
+    return -1;
 }
 
 void fill_syscall_info() {
@@ -151,15 +156,15 @@ void fill_syscall_info() {
     if (task == NULL) {
         msg2.msi->valid = false;
     } else {
-    msg2.msi->valid = true;
-    struct pt_regs *regs = task_pt_regs(task);
-    msg2.msi->sp = user_stack_pointer(regs);
-    msg2.msi->nr = syscall_get_nr(task, regs);
-    msg2.msi->arch = syscall_get_arch(task);
-    msg2.msi->instruction_pointer = instruction_pointer(regs);
-    if (msg2.msi->nr != -1L) {
-        syscall_get_arguments(task, regs, msg2.msi->args);
-    }
+        msg2.msi->valid = true;
+        struct pt_regs *regs = task_pt_regs(task);
+        msg2.msi->sp = user_stack_pointer(regs);
+        msg2.msi->nr = syscall_get_nr(task, regs);
+        msg2.msi->arch = syscall_get_arch(task);
+        msg2.msi->instruction_pointer = instruction_pointer(regs);
+        if (msg2.msi->nr != -1L) {
+            syscall_get_arguments(task, regs, msg2.msi->args);
+        }
     }
 }
 
@@ -177,6 +182,7 @@ void fill_signal_struct() {
     }
 }
 
+//Function on deleting module
 void __exit etx_driver_exit(void) {
     device_destroy(dev_class, dev);
     class_destroy(dev_class);
@@ -187,29 +193,37 @@ void __exit etx_driver_exit(void) {
 }
 
 /* This function will be called when we open the Device file */
-int etx_open(struct inode * inode, struct file * file) {
+int etx_open(struct inode *inode, struct file *file) {
     pr_info("Device File Opened...\n");
     return 0;
 }
 
 /* This function will be called when we close the Device file */
-int etx_release(struct inode * inode, struct file * file) {
+int etx_release(struct inode *inode, struct file *file) {
     pr_info("Device File Closed...\n");
     return 0;
 }
 
 /* This function will be called when we read the Device file */
-ssize_t etx_read(struct file * filp, char __user * buf, size_t len, loff_t * off) {
-    pr_info("Read Function\n");
-    return 0;
+ssize_t etx_read(struct file *filp, char __user
+
+* buf,
+size_t len, loff_t
+* off) {
+pr_info("Read Function\n");
+return 0;
 }
 
 /* This function will be called when we write the Device file */
-ssize_t etx_write(struct file * filp, const char __user * buf, size_t len, loff_t * off) {
-    pr_info("Write function\n");
-    return len;
+ssize_t etx_write(struct file *filp, const char __user
+
+* buf,
+size_t len, loff_t
+* off) {
+pr_info("Write function\n");
+return
+len;
 }
 
 module_init(etx_driver_init);
 module_exit(etx_driver_exit);
-
