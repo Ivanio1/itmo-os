@@ -1,0 +1,1 @@
+cmd_/home/ivan/Desktop/itmo-os/lab2/code/driver.mod := printf '%s\n'   driver.o | awk '!x[$$0]++ { print("/home/ivan/Desktop/itmo-os/lab2/code/"$$0) }' > /home/ivan/Desktop/itmo-os/lab2/code/driver.mod

@@ -12,15 +12,23 @@
 #include <linux/vmalloc.h>
 #include <linux/pid.h>
 #include <linux/sched.h>
+#include <linux/ptrace.h>
+
+#define WR_SIGNAL_STRUCT _IOW('a', 2, struct signal_struct_message*)
+#define WR_SYSCALL_INFO _IOW('a', 3, struct syscall_info_message*)
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Ivanio1");
+MODULE_DESCRIPTION("Linux kernel driver (IOCTL)");
+MODULE_VERSION("1.0");
 
 
-#define WR_VALUE _IOW('a', 2, struct message * )
+void fill_signal_struct(void);
+void fill_syscall_info(void);
 
 int __init etx_driver_init(void);
 void __exit etx_driver_exit(void);
-void fill_structs(void);
 long etx_ioctl(struct file *file, unsigned int cmd, unsigned long arg);
-
 int etx_open(struct inode *inode, struct file *file);
 int etx_release(struct inode *inode, struct file *file);
 ssize_t etx_read(struct file *filp, char __user *buf, size_t len, loff_t *off);
@@ -49,23 +57,46 @@ struct signal_struct_message {
     pid_t pid;
 };
 
+struct my_seccomp_data {
+	int nr;
+	__u32 arch;
+	__u64 instruction_pointer;
+	__u64 args[6];
+};
+
+struct my_syscall_info {
+	__u64			sp;
+	struct my_seccomp_data	data;
+};
+
+struct syscall_info_message {
+    struct my_syscall_info *msi;
+    pid_t pid;
+};
+
 dev_t dev = 0;
 
 struct class *dev_class;
 struct cdev etx_cdev;
-
-
 struct task_struct *ts;
 struct signal_struct_message msg;
+struct syscall_info_message msg2;
+
 
 long etx_ioctl(struct file *file, unsigned int cmd, unsigned long arg) {
-  
-    if (cmd == WR_VALUE) {
+    if (cmd == WR_SYSCALL_INFO) {
+    	if (copy_from_user(&msg2, (struct syscall_info_message *) arg, sizeof(msg2))) {
+            pr_err("Data Write : Err!\n");
+        }
+        pr_info("Pid = %d\n", msg2.pid);
+        fill_syscall_info();
+    }
+    if (cmd == WR_SIGNAL_STRUCT) {
         if (copy_from_user(&msg, (struct signal_struct_message *) arg, sizeof(msg))) {
             pr_err("Data Write : Err!\n");
         }
         pr_info("Pid = %d\n", msg.pid);
-        fill_structs();
+        fill_signal_struct();
     } else {
         pr_info("Default\n");
     }
@@ -110,7 +141,11 @@ int __init etx_driver_init(void) {
         return -1;
 }
 
-void fill_structs() {
+void fill_syscall_info(){
+
+}
+
+void fill_signal_struct() {
     ts = get_pid_task(find_get_pid(msg.pid), PIDTYPE_PID);
     if (ts == NULL) {
         msg.ssi->valid = false;
@@ -160,6 +195,3 @@ ssize_t etx_write(struct file * filp, const char __user * buf, size_t len, loff_
 module_init(etx_driver_init);
 module_exit(etx_driver_exit);
 
-MODULE_LICENSE("GPL");
-MODULE_DESCRIPTION("Linux kernel driver (IOCTL)");
-MODULE_VERSION("1.0");
