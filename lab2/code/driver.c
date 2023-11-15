@@ -13,6 +13,13 @@
 #include <linux/pid.h>
 #include <linux/sched.h>
 #include <linux/ptrace.h>
+#include <linux/types.h>
+#include <linux/namei.h>
+#include <linux/path.h>
+#include <linux/mount.h>
+#include <linux/dcache.h>
+#include <linux/sched/task_stack.h>
+#include <asm/syscall.h>
 
 #define WR_SIGNAL_STRUCT _IOW('a', 2, struct signal_struct_message*)
 #define WR_SYSCALL_INFO _IOW('a', 3, struct syscall_info_message*)
@@ -57,16 +64,13 @@ struct signal_struct_message {
     pid_t pid;
 };
 
-struct my_seccomp_data {
-	int nr;
-	__u32 arch;
-	__u64 instruction_pointer;
-	__u64 args[6];
-};
-
 struct my_syscall_info {
-	__u64			sp;
-	struct my_seccomp_data	data;
+    bool valid;
+    unsigned long  sp;
+    int nr;
+    unsigned int arch;
+    unsigned long instruction_pointer;
+    unsigned long args[6];
 };
 
 struct syscall_info_message {
@@ -91,6 +95,7 @@ long etx_ioctl(struct file *file, unsigned int cmd, unsigned long arg) {
         pr_info("Pid = %d\n", msg2.pid);
         fill_syscall_info();
     }
+    
     if (cmd == WR_SIGNAL_STRUCT) {
         if (copy_from_user(&msg, (struct signal_struct_message *) arg, sizeof(msg))) {
             pr_err("Data Write : Err!\n");
@@ -141,8 +146,21 @@ int __init etx_driver_init(void) {
         return -1;
 }
 
-void fill_syscall_info(){
-
+void fill_syscall_info() {
+    struct task_struct *task = get_pid_task(find_get_pid(msg2.pid), PIDTYPE_PID);
+    if (task == NULL) {
+        msg2.msi->valid = false;
+    } else {
+    msg2.msi->valid = true;
+    struct pt_regs *regs = task_pt_regs(task);
+    msg2.msi->sp = user_stack_pointer(regs);
+    msg2.msi->nr = syscall_get_nr(task, regs);
+    msg2.msi->arch = syscall_get_arch(task);
+    msg2.msi->instruction_pointer = instruction_pointer(regs);
+    if (msg2.msi->nr != -1L) {
+        syscall_get_arguments(task, regs, msg2.msi->args);
+    }
+    }
 }
 
 void fill_signal_struct() {

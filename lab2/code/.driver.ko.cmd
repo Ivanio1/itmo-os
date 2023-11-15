@@ -1,1 +1,0 @@
-cmd_/home/ivan/Desktop/itmo-os/lab2/code/driver.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/ivan/Desktop/itmo-os/lab2/code/driver.ko /home/ivan/Desktop/itmo-os/lab2/code/driver.o /home/ivan/Desktop/itmo-os/lab2/code/driver.mod.o;  true
