@@ -1,1 +1,0 @@
-cmd_/home/ivan/Desktop/itmo-os/lab2/test/mymodule.mod := printf '%s\n'   mymodule.o | awk '!x[$$0]++ { print("/home/ivan/Desktop/itmo-os/lab2/test/"$$0) }' > /home/ivan/Desktop/itmo-os/lab2/test/mymodule.mod
